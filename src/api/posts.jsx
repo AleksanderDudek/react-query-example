@@ -19,13 +19,20 @@ export async function createPost(newPost) {
     return response.json();
 }
 
-export async function updatePost(id, updatedPost) {
-    const response = await fetch(`http://localhost:4000/posts/${id}`, {
+export async function updatePost(updatedPost) {
+    const response = await fetch(`http://localhost:4000/posts/${updatedPost.id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(updatedPost)
+    });
+    return response.json();
+}
+
+export async function deletePost(id) {
+    const response = await fetch(`http://localhost:4000/posts/${id}`, {
+        method: "DELETE",
     });
     return response.json();
 }

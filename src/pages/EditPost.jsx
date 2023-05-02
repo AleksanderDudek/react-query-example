@@ -26,7 +26,7 @@ const EditPost = () => {
     if(isError) return `Error: ${error.message}`;
 
     const handleSubmit = (updatedPost) => {
-        updatePostMutation.mutate(id, updatedPost);
+        updatePostMutation.mutate({id, ...updatedPost});
     }
 
     return (
