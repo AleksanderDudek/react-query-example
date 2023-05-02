@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "7bab9c12-e3b2-43c0-9bda-d5039b0d3e11",
+      "title": "asdasd",
+      "body": "asdasda"
+    },
+    {
+      "id": "cd3f2081-0315-40e2-bb66-dff2ba45789a",
+      "title": "dadasd",
+      "body": "dasdasd"
+    },
+    {
+      "id": "4e91a726-7ac8-4c5d-8a77-0e964658a38d",
+      "title": "qweqe",
+      "body": "qweqe"
+    },
+    {
+      "id": "7ad3a17d-3715-4e81-9931-6a680dd06f66",
+      "title": "asdadasdasd",
+      "body": "qeqweqwe"
+    }
+  ]
+}
